@@ -13,15 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('/actors', function()
+{
+  
+    return view('actors');
+});
 Route::get('/', function()
 {
   
     return view('welcome');
-});
-Route::get('/venue', function()
-{
-  
-    return view('venue');
 });
 Route::get('helloworld/{review}', 'ReviewController@show');
 
@@ -36,3 +37,7 @@ if (!empty($event_id))
 echo $event_id;
 })->where('action', '[A-Za-z]+')
 ->where('event_id','[0-9]+');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

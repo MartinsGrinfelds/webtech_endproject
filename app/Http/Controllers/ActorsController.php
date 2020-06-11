@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use App\Actors;
 
-class AssignmentController extends Controller
+class ActorsController extends Controller
 {
     //
 }
