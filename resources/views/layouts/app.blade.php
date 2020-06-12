@@ -43,7 +43,7 @@
                             <a class="nav-link" href="/actors">Actors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/cart">Cart</a>
+                            <a class="nav-link" href="/tickets">Buy a ticket</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/admin">Admin Options</a>
@@ -78,12 +78,27 @@
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('My') }}
+                                        {{ __('My purchases') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+                                </div>
+                            </li>
+                                <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    EN/LV <span class="caret"></span>
+                                </a>
+                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="">
+                                        {{ __('English') }}
+                                    </a>
+                                    <a class="dropdown-item" href="">
+                                       {{ __('Latviešu') }}
+                                    </a>
+
+                                   
                                 </div>
                             </li>
                         @endguest

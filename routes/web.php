@@ -14,21 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/actors', function()
+Route::get('/about', function()
 {
-  
-    return view('actors');
+    return view('about');
 });
 Route::get('/', function()
 {
-  
     return view('welcome');
 });
-Route::get('helloworld/{review}', 'ReviewController@show');
+Route::get('/admin', 'AdminController@index');
+Route::get('/actors', 'ActorController@index');
+Route::get('/performances', 'PerformanceController@index');
+Route::get('/performances/create', 'PerformanceController@create');
+Route::get('/tickets','PerformanceTimeController@index');
+Route::get('/performancetimes/create','PerformanceTimeController@create');
 
-Route::get('test', function() {
-    return view('test');
-});
 
 Route::get('/event/{action}/{event_id?}', function($action,
 $event_id = null) {

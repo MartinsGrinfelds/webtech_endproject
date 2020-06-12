@@ -17,7 +17,7 @@
                     Welcome back, {{Auth::user()->name}}!
                 </div>
                 <div>
-                    <button type="button" class="btn btn-dark">View your purchases</button>
+                    <button type="button" class="btn btn-dark  sl-3 st-3">View your purchases</button>
                 </div>
             </div>
         </div>
