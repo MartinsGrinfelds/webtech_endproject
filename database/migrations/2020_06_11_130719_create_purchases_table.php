@@ -20,8 +20,8 @@ class CreatePurchasesTable extends Migration
             $table->integer('quantity');
            
            $table->timestamps();
-           $table->foreign('session_id')->references('session_id')->on('performance_times');
-            $table->foreign('user_id')->references('id')->on('users');
+           $table->foreign('session_id')->references('session_id')->on('performance_times')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

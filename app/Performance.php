@@ -10,6 +10,6 @@ class Performance extends Model
     
      public function performance_times()
     {
-        return $this->hasMany('App\PerformanceTimes');
+        return $this->belongsTo(PerformanceTime::class);
     }
 }

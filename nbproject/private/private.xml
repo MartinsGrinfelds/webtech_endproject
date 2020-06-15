@@ -3,7 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/wamp64/www/galadarbs/app/User.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/database/migrations/2020_06_11_121818_create_performance_times_table.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/sass/app.scss</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/performances/create.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/performance_times/create.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/PerformanceTime.php</file>
             <file>file:/C:/wamp64/www/galadarbs/resources/views/layout.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/performance_times.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/performances.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Http/Controllers/PerformanceTimeController.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/welcome.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/admin.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Http/Controllers/AdminController.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/routes/web.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Http/Controllers/ActorController.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/about.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/actors.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/database/seeds/DatabaseSeeder.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/resources/views/home.blade.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Actor.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Performance.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/database/migrations/2020_06_11_130719_create_purchases_table.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Http/Controllers/HomeController.php</file>
+            <file>file:/C:/wamp64/www/galadarbs/app/Http/Controllers/PerformanceController.php</file>
         </group>
     </open-files>
 </project-private>
