@@ -17,7 +17,8 @@ class CreateActorsTable extends Migration
             $table->bigIncrements('actor_id');
             $table->string('name', 30);
             $table->string('surname', 30);
-            $table->text('bio');
+            $table->text('favourite_saying');
+            $table->timestamps();
         });
     }
 

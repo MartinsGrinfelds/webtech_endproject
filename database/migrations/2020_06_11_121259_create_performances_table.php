@@ -18,7 +18,8 @@ class CreatePerformancesTable extends Migration
              $table->bigIncrements('performance_id');
             $table->string('title', 100);
             $table->text('description');
-            $table->float('ticket_price', 2, 2);
+            $table->float('ticket_price', 4, 2);
+            $table->timestamps();
         });
     }
 

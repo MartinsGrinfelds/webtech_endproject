@@ -19,6 +19,7 @@ class CreatePerformanceTimesTable extends Migration
             $table->bigIncrements('session_id');
             $table->integer('performance_id')->unsigned();
            $table->dateTime('start_of_performance', 0);
+           $table->timestamps();
            $table->foreign('performance_id')->references('performance_id')->on('performances')->onDelete('cascade');
 
         });

@@ -3,14 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
-use App\Actors;
+
+use App\Actor;
 
 class ActorController extends Controller
 {
     //
      public function index()
     {
-        return view('actors');
+         $actors = Actor::all();
+   
+        return view('actors',['actors' =>$actors]);
+        
     }
 }

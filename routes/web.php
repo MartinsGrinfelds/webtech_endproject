@@ -23,6 +23,10 @@ Route::get('/', function()
     return view('welcome');
 });
 Route::get('/admin', 'AdminController@index');
+/**Route::get('/performances', function() {
+    $performance = App\Performance::all();
+    return $performance;
+});**/
 Route::get('/actors', 'ActorController@index');
 Route::get('/performances', 'PerformanceController@index');
 Route::get('/performances/create', 'PerformanceController@create');

@@ -2,21 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Performance;
 use Illuminate\Http\Request;
 
 class PerformanceController extends Controller
 {
     //
        public function index() {
-        return view('performances');
+        $performances = Performance::all();
+   
+        return view('performances',['performances' =>$performances]);
     }
     public function show($id) {
        
      $performance = Performance::where('id',$id)->firstOrFail();  
       
-     
-       
-      return view('performances.show', ['review' => $review]);
+      return view('performances.show', ['performance' => $performance]);
     
    }
       public function create() {
